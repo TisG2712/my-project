@@ -1,11 +1,10 @@
-import Hello from "./components/Hello";
 import React from "react";
+import Course from "./components/Course";
 
 function App() {
   return (
     <>
-      <Hello name="Dũng" content="Xin chào" />
-      <Hello content="Hello" />
+      <Course />
     </>
   );
 }
