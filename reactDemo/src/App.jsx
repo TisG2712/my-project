@@ -1,10 +1,12 @@
 import React from "react";
 import Course from "./components/Course";
+import Product from "./components/Product";
+
 
 function App() {
   return (
     <>
-      <Course />
+      <Product/>
     </>
   );
 }
