@@ -1,16 +1,15 @@
 import React from 'react'
-import Category from './components/Category';
-import NotCategory from './components/NotCategory';
 
 function App() {
 
-  const isValue = true;
+  const content1 = <div>This is content 1</div>
+  const content2 = <div>This is content 2</div>
+  const isValue = false;
 
     if(isValue) {
-      return <Category />
-    } else {
-      return <NotCategory />
+      return content1;
     }
+      return content2;
 }
 
 export default App
