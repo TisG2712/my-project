@@ -1,5 +1,3 @@
-import React from "react";
-
 function Course() {
   const courses = ["JavaScript", "React", "NextJS"];
 
