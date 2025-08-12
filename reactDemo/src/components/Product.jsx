@@ -7,6 +7,7 @@ const Product = () => {
         {id: 2, name:"Phone", price: 1800},
         {id: 3, name:"Televison", price: 3500}
     ]
+    
   return (
     <table border={1} cellPadding={8} style={{borderCollapse: "collapse"}}>
         <thead>
