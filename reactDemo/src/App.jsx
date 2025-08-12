@@ -1,14 +1,10 @@
 import React from 'react'
-import Happy from './components/Happy';
-import NotHappy from './components/NotHappy';
+import Class from './components/Class'
+
 
 function App() {
-  const isHappy = false;
-
   return (
-    <div>
-      {isHappy ? <Happy/> : <NotHappy/>} 
-    </div>
+    <Class />
   )
 }
 
