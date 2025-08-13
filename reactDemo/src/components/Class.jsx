@@ -20,7 +20,7 @@ function Class() {
       {classrooms.map((classroom, index) => {
         return (
           <>
-            {classroom.price < 1000 ? (<li>Lớp học: {classroom.title} - Giá: {classroom.price}</li>) : ("")}
+            {classroom.price < 1000 ? (<li key={index}>Lớp học: {classroom.title} - Giá: {classroom.price}</li>) : ("")}
           </>
         );
       })}

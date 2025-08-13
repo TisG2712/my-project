@@ -1,11 +1,13 @@
-import React from 'react'
-import Class from './components/Class'
-
-
+import React, { useState } from "react";
+import StateDemo from "./components/StateDemo";
+import StateDemo2 from "./components/StateDemo2";
 function App() {
   return (
-    <Class />
+    <>
+      {/* <StateDemo/> */}
+      <StateDemo2/>
+    </>
   )
 }
 
-export default App
+export default App;
