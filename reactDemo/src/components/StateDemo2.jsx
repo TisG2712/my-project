@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function StateDemo2() {
   
   const [level, setLevel] = useState(() => {
-    const number = 1 + 1 + 1;
+    const number = 1;
 
     console.log(number);
     
@@ -11,7 +11,7 @@ function StateDemo2() {
   });
 
   const handleLevel = () => {
-    setLevel((prev) => prev + 1);
+    setLevel(level + 1);
   };
 
   return (
